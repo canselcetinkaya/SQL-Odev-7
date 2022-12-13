@@ -10,7 +10,9 @@ group by rating
 
 --select replacement_cost , count( * ) from film 
 
-group by replacement_cost having count( * ) >50 
+group by replacement_cost 
+
+having count( * ) >50 
 
 3)customer tablosunda bulunan store_id değerlerine karşılık gelen müşteri sayılarını nelerdir? 
 
